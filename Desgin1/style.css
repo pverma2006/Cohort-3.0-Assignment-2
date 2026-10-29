@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+}
+main {
+  width: 100%;
+  height: 100%;
+}
+#section_1 {
+  width: 100%;
+  height: 10%;
+}
+#section_1 .nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 300px;
+}
+.nav .left {
+  display: flex;
+  align-items: center;
+}
+.left img {
+  width: 70px;
+}
+.left h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+}
+.nav .mid{
+  display: flex;
+  gap: 40px;
+}
+.mid p {
+  font-size: 15px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: white;
+}
+.right p {
+  font-size: 15px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: white;
+}
+#section_2 {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+ 
+}
+.header h1 {
+  font-size: 100px;
+  font-weight: 700;
+}
+.hero .header{
+    margin-top: 22px;
+}
+.hero .header h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#section_2 .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 28px;
+}
+.btn .btn-item {
+  width: fit-content;
+}
+.btn-item button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+  background-color: #161616;
+  color: white;
+}
+.btn-item button:hover {
+  background-color: #fc4708;
+}
+#section_3 {
+  width: 100%;
+  height: calc(100% - 30%);
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.card {
+  width: 19%;
+  height: 75%;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #161616;
+}
+.card .card-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.card-image img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+.card .card-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  top: 60%;
+  padding: 13px 10px;
+}
+.card-text button {
+  width: fit-content;
+  padding: 6px 10px;
+  border-radius: 15px;
+  border: none;
+  background-color: #521d0975;
+  color: orange;
+  font-size: 15px;
+}
+.card-text h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.card-text h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.4;
+  color: white;
+}
